@@ -1,0 +1,9 @@
+#!/bin/bash
+rm -rf .git/
+git init
+git add .
+git status
+git commit -m "feat: functionality for foundational tasks"
+git remote add origin $1
+git push
+git status
